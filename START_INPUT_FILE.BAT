@@ -1,0 +1,7 @@
+@ECHO OFF
+if exist result.txt del result.txt
+if exist quit.txt del quit.txt
+rem for /f "tokens=*" %%a in ('CALL INPUT.BAT | python list_to_geo.py') do (
+rem 	ECHO RESULT: %%a
+rem )
+INPUT_FILE.BAT | python list_to_geo.py
