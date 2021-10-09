@@ -1,6 +1,10 @@
 # project-obj-dos-cmd-python-slave
 Make Python script slave of dos cmd batch command
 
+Can be used in combination with https://github.com/HakkaTjakka/MinecraftWorldEditor (pacman.exe geo2index holland).
+And https://github.com/HakkaTjakka/REGION_FINDER
+
+
 Some Python scrips to object-obj.
 
 Used for geo projection for Build The Earth 1 to 1
